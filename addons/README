@@ -1,0 +1,11 @@
+This packages are optional which can go in the addons/
+folder on a liveslak USB. Most are standalone installs
+but a few will need other deps installed as well to
+run.
+
+cinny-desktop (req: webkit2gtk)
+gui-ufw (req: ufw, webkit2gtk)
+
+Please note, GFS contains webkit2gtk4.1 &
+webkitgtk6.0 and they are different versions of
+the library and will not work in it's place.
